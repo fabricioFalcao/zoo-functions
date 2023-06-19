@@ -14,8 +14,7 @@ const scheduleByDay = (...days) => {
           .filter(({ availability }) => availability.includes(day))
           .map(({ name }) => name),
       };
-    }
-    if (day === 'Monday') {
+    } else {
       schedule[day] = {
         officeHour: 'CLOSED',
         exhibition: 'The zoo will be closed!',
