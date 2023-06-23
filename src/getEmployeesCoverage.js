@@ -68,21 +68,11 @@ const getSingleEmployee = (person) => {
   return obj;
 };
 
-const getMultipleEmployees = (...workers) => {
-  const arr = [];
-  workers.flat().forEach((person) => {
-    arr.push(getSingleEmployee(person));
-  });
-  return arr;
-};
+const getMultipleEmployees = (...workers) => workers.flat()
+  .map((person) => getSingleEmployee(person));
 
-const generateEmployeesList = () => {
-  const employeesList = [];
-  data.employees.forEach((employee) => {
-    employeesList.push({ name: employee.firstName });
-  });
-  return employeesList;
-};
+const generateEmployeesList = () => data.employees
+  .map((employee) => ({ name: employee.firstName }));
 
 const getEmployeesCoverage = (person) => {
   if (!person) {
