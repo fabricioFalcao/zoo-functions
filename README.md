@@ -1,10 +1,11 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### Zoo Information Organizer
+
+👨‍💻 **What was developed**
+
+I organized zoo information by implementing functions to retrieve data about zoo animals' species, origin, and zoo staff. ES6 (ECMAScript 6) and Higher Order Functions were utilized, emphasizing test-driven development for code reliability and performance.
+
+⚛️ **Technologies and Tools**
+
+- ECMAScript 6 (ES6)
+- Higher Order Functions
+- Jest (for testing)
